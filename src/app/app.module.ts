@@ -7,7 +7,7 @@ import { HlmButtonDirective } from './_components/ui-button-helm/src/lib/hlm-but
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,

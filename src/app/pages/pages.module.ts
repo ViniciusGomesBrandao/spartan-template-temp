@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
 import { InitComponent } from './init/init.component';
+import { UiTerminalComponent } from '../_components/ui-terminal/ui-terminal.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { InitComponent } from './init/init.component';
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    UiTerminalComponent
   ]
 })
 export class PagesModule { }
